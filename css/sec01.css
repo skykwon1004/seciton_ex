@@ -1,0 +1,94 @@
+* {
+    outline: 1px solid --navy;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sec01 {
+    height: 100vh;
+    background: url(../img/life_bg.jpg)no-repeat center center/cover;
+
+    color: #fff;
+
+    padding: 100px 0;
+}
+
+.sec01 .inner {
+    display: flex;
+}
+
+.sec01 .inner>* {
+    flex: 1;
+}
+
+.sec01 .tit_left h2 {
+    font-size: 61px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.sec01 .tit_left p {
+    font-size: 19px;
+    width: 550px;
+    line-height: 1.4;
+}
+
+.sec01 .tit_right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec01 .box {
+    flex: 1;
+    justify-content: flex-end;
+
+    width: 290px;
+    padding: 50px;
+}
+
+.sec01 .box a {
+    display: block;
+    text-align: right;
+    margin: 0 0 80px 0;
+}
+
+.sec01 .box a img {
+    margin: 0 0 0 10px;
+}
+
+.sec01 .box h3 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.sec01 .box p {
+    line-height: 1.4;
+    font-size: 17px;
+    word-break: keep-all;
+    min-height: 60px;
+}
+
+.sec01 .box01 {
+    opacity: 0;
+}
+
+.sec01 .box02 {
+    margin: 0 0 0 3px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.sec01 .box03 {
+    border: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.sec01 .box04 {
+    background: rgb(255, 255, 255, 0.3);
+}
+
+.sec01 .box:hover img {
+    content: url(../img/youyube_icon_blue.png);
+}
