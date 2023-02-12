@@ -1,0 +1,129 @@
+* {
+    outline: 1px solid --red;
+}
+
+.sec03 {
+    height: 100vh;
+    background: url(../img/section4_bg.jpg)no-repeat left top/42%;
+}
+
+.sec_wrap {
+    position: relative;
+    display: flex;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sec_wrap .left_itm {
+    flex: 1;
+    padding: 100px 70px 100px 0;
+
+}
+
+.sec_wrap .left_tit h2 {
+    position: relative;
+    font-size: 51px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.sec_wrap .left_tit h2:before {
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    content: "";
+    width: 17px;
+    height: 4px;
+    background: #a63145;
+    transform: rotate(-50deg);
+}
+
+.sec_wrap .left_tit p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4;
+    word-break: keep-all;
+    margin: 0 0 80px 0;
+    color: #444;
+}
+
+.sec_wrap .left_tit .menu {
+    border-top: 1px solid #191919;
+}
+
+.sec_wrap .left_tit .menu li {
+    display: block;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+}
+
+.sec_wrap .right_itm {
+    flex: 2;
+}
+
+.sec_wrap .content {
+    padding: 100px 0 100px 60px;
+}
+
+.sec_wrap .right_itm h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.sec_wrap .right_itm h3::before {
+    display: inline-block;
+    content: "\e93f";
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 50%;
+    background: #777;
+    color: #fff;
+    font-family: xeicon;
+    margin: 0 10px 0 0;
+    vertical-align: 2px;
+}
+
+.sec_wrap .content01 .con_01 {
+    display: flex;
+    gap: 10px;
+}
+
+.sec_wrap .content01 .con_01 li {
+    padding: 30px 50px;
+    background: #eee;
+}
+
+.sec_wrap .content02 .con_02 {
+    display: flex;
+    gap: 10px;
+}
+
+.sec_wrap .content02 .con_02 li {
+    padding: 30px 50px;
+    background: #eee;
+}
+
+.sec_wrap .content01 {
+    display: none;
+}
+
+.sec_wrap .content02 {
+    display: none;
+}
+
+.sec_wrap .content01.on {
+    display: block;
+}
+
+.sec_wrap .content02.on {
+    display: block;
+}
+
+.sec_wrap .menu li.on {
+    color: #a63145;
+    font-weight: 700;
+}
