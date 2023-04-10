@@ -1,0 +1,39 @@
+.inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.inner figure {
+    flex: 1;
+    height: 500px;
+    transition: 0.5s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.inner figure:hover {
+    flex: 3;
+}
+
+.itm01 {
+    background: url(../img/mo_magazine_bg01.png)no-repeat center center/cover;
+}
+
+.itm02 {
+    background: url(../img/mo_magazine_bg02.png)no-repeat center center/cover;
+}
+
+.itm03 {
+    background: url(../img/mo_magazine_bg03.png)no-repeat center center/cover;
+}
+
+.inner figure h3 {
+    color: #fff;
+    font-size: 25px;
+}
